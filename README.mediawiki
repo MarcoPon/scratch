@@ -48,9 +48,12 @@ LTC [Block 0]-+-[Block 1]---[Block 2]---[...]-> LTC chain
         |     +-[Block 1]---[Block 2]---[...]-> FTC chain
         |           ^
         |           |
-        |          FTC chainid = fdbe99b90c90bae7505796461471d89ae8388ab953997aa06a355bbda8d915cb
+        |          FTC chainid
         |
-       LTC chainid = 12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2
+       LTC chainid
+
+Litecoin   : 12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2
+Feathercoin: fdbe99b90c90bae7505796461471d89ae8388ab953997aa06a355bbda8d915cb
 </pre>  
 
 ;type: 
