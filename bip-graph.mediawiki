@@ -52,6 +52,9 @@ Where:
 | 
 |}
 
+----
+===Definition of chainid===
+
 The '''chainid''' of a chain is the block hash of the corresponding genesis block. For forked chains, it's the block hash of the first block after fork.
 
 So, for example:
