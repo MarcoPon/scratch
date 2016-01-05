@@ -30,7 +30,7 @@ Where:
 ;chain:
 : (optional) '''chainid''' of the desired chain. If omitted (which would be the usual case), Bitcoin main net is assumed. 
 
-A '''chainid''' is the hash of the corresponding genesis block. For forked chains, it's the hash of the first block after fork.
+:A '''chainid''' is the hash of the corresponding genesis block. For forked chains, it's the hash of the first block after fork.
 
 So, for example:
 <pre>
@@ -66,18 +66,18 @@ Feathercoin: fdbe99b90c90bae7505796461471d89ae8388ab953997aa06a355bbda8d915cb
 
 ==Examples==
 
-A transaction on Bitcoin's mainnet:
+A transaction on Bitcoin's main net:
  blockchain:/tx/b462ae6eb8bdae2e060239a2a3ea5d9c3e0f9ef34d9717beb2dcf0ed42cee7da
 
-A block on Bitcoin's mainnet:
+A block on Bitcoin's main net:
  blockchain:/block/00000000000000000119af5bcae2926df54ae262e9071a94a99c913cc217cc72
 or
  blockchain:/block/372338
 
-An address on Bitcoin's mainnet:
+An address on Bitcoin's main net:
  blockchain:/address/16EW6Rv9P9AxFDBrZV816dD4sj1EAYUX3f
 
-A transaction on Bitcoin's testnet:
+A transaction on Bitcoin's test net:
  blockchain://000000000933ea01ad0ee984209779baaec3ced90fa3f408719526f8d77f4943/tx/3b95a766d7a99b87188d6875c8484cb2b310b78459b7816d4dfc3f0f7e04281a
 
 ==Rationale==
