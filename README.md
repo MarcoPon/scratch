@@ -7,7 +7,7 @@ Additional, non critical info/metadata are contained in block 0 (like name, file
 
 If disaster strikes, recovery can be performed simply scanning a volume/image, reading sector sized slices and checking blocks signatures and then CRCs to detect valid SBX blocks. Then the blocks can be grouped by UIDs, sorted by sequence number and reassembled to form the original SeqBox containers.
 
-[![N|Solid](http://i.imgur.com/DQZDO0P.gif)]
+![It's Magic](http://i.imgur.com/DQZDO0P.gif)
 
 It's also possible and entirely transparent to keep multiple copies of a container, in the same or different media, to increase the chances of recoverability. In case of corrupted blocks, all the good ones can be collected and reassembled from all available sources.
 
